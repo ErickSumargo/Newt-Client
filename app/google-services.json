@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "627337506128",
+    "firebase_url": "https://newt-7c4a1.firebaseio.com",
+    "project_id": "newt-7c4a1",
+    "storage_bucket": "newt-7c4a1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:627337506128:android:4806d6352930be09",
+        "android_client_info": {
+          "package_name": "app.newt.id"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "627337506128-dsi4k6ml9shm7rod424mb06b75bo86qq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCClTmGTBMWIzqRvm_OnQycALV21P4VKFY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

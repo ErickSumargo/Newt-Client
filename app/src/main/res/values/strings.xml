@@ -1,0 +1,237 @@
+<resources>
+    <string name="app_name">Newt</string>
+    <string name="app_tagline">Solve at Best</string>
+    <string name="app_register">Daftar</string>
+    <string name="app_reset_password">Reset Password</string>
+    <string name="app_reset_phone">Ubah No. HP</string>
+    <string name="app_profile">Profil</string>
+    <string name="app_full_screen_input">Pesan</string>
+    <string name="app_payment">Metode Pembayaran</string>
+    <string name="app_challenge_history">Challenge Periode Lalu</string>
+
+    <string name="intro1_title">Newt</string>
+    <string name="intro1_content">Sebuah aplikasi chatting membantu kegiatan belajar murid sekolah</string>
+
+    <string name="intro2_title">Guru Terbaik</string>
+    <string name="intro2_content">Kualitas pengajaran yang sempurna melalui guru yang sudah terseleksi</string>
+
+    <string name="intro3_title">Responsif</string>
+    <string name="intro3_content">Respons cepat guru untuk setiap pertanyaan yang diajukan</string>
+
+    <string name="intro4_title">Aman</string>
+    <string name="intro4_content">Privasi pesan chat terjaga aman dari pihak luar</string>
+
+    <string name="no_internet">Tidak ada koneksi internet</string>
+    <string name="connection_error">Gangguan koneksi...</string>
+    <string name="connection_error_try">Gangguan koneksi, silahkan dicoba lagi</string>
+
+    <string name="profile_updated">Profil berhasil diperbarui</string>
+
+    <string name="phone_reg_info">SMS berupa kode verifikasi akan dikirimkan ke No. HP anda</string>
+    <string name="phone_reg_confirmation">Kode verifikasi akan dikirimkan pada nomor ini melalui SMS</string>
+
+    <string name="phone_reg_error_1">Masukkan No. HP anda</string>
+    <string name="phone_reg_error_2">Periksa kembali format No. HP anda</string>
+    <string name="phone_reg_error_3">Maaf, No. HP telah terdaftar sebelumnya</string>
+    <string name="phone_reg_error_4">Maaf, perangkat HP telah terdaftar sebelumnya</string>
+
+    <string name="phone_val_info">SMS berupa kode verifikasi akan dikirimkan ke No. HP anda yang telah terdaftar sebelumnya</string>
+    <string name="phone_val_error_1">Maaf, No. HP tidak terdaftar sebelumnya</string>
+
+    <string name="phone_res_info">SMS berupa kode verifikasi akan dikirimkan ke No. HP baru anda</string>
+    <string name="phone_res_success">No. HP berhasil diubah</string>
+
+    <string name="code_ver_info">Masukkan kode verifikasi dari SMS yang baru kami kirimkan ke No. HP anda</string>
+
+    <string name="code_ver_error_1">Masukkan kode verifikasi yang dikirimkan ke anda melalui SMS</string>
+    <string name="code_ver_error_2">Kode verifikasi salah</string>
+
+    <string name="user_reg_error_1">Masukkan nama anda</string>
+    <string name="user_reg_error_2">Nama tidak dapat mengandung karakter khusus</string>
+    <string name="user_error_3">Masukkan password anda</string>
+    <string name="user_error_4">Password minimal 6 karakter</string>
+    <string name="user_error_5">Masukkan nama sekolah anda</string>
+    <string name="user_error_6">Maaf, Kode promo salah</string>
+    <string name="user_error_7">Maaf, kode promo telah di-apply sebelumnya</string>
+    <string name="user_error_8">Maaf, kode promo ini tidak berlaku lagi</string>
+
+    <string name="password_res_success">Password berhasil di-reset</string>
+
+    <string name="password_res_error_1">Masukkan sekali lagi password baru anda</string>
+    <string name="password_res_error_2">Password tidak cocok</string>
+
+    <string name="login_error_1">No. HP tidak terdaftar</string>
+    <string name="login_error_2">Password tidak cocok</string>
+
+    <string name="challenge_reg_error_1">Anda telah terdaftar sebagai challenger sebelumnya</string>
+    <string name="challenge_submit_answer_error_1">Maaf, anda terblokir sebagai penantang. Silahkan hubungi pihak admin melalui
+        halaman profil anda untuk informasi lebih lanjut</string>
+    <string name="challenge_submit_answer_error_2">Maaf, soal tidak lagi aktif untuk fitur Challenge</string>
+    <string name="challenge_submit_answer_error_3">Maaf, soal tidak berlaku lagi untuk dijawab dalam periode minggu ini</string>
+    <string name="challenge_submit_answer_error_4">Masukkan jawaban anda</string>
+
+    <string name="no_activity">Belum ada Aktivitas</string>
+    <string name="no_challenge">Belum ada Challenge</string>
+    <string name="no_rank">Belum ada Top Skor Sementara</string>
+    <string name="no_solved">Belum ada Rekor Poin</string>
+    <string name="no_history">Belum ada Histori</string>
+    <string name="no_rank_generated">Temukan peringkat anda dengan memulai menjawab pertanyaan challenge dengan benar</string>
+
+    <string name="chat_delay">&#xf3fe;</string>
+    <string name="chat_read">&#xf3ff;</string>
+
+    <string name="logics">Logika</string>
+    <string name="mathematics">Matematika</string>
+    <string name="physics">Fisika</string>
+    <string name="chemistry">Kimia</string>
+
+    <string name="payment_1">Transfer Pulsa</string>
+    <string name="payment_2">Transfer Bank</string>
+
+    <string name="promote_1">Respons pertanyaan &lt; 3 menit</string>
+    <string name="promote_2">Diskusi lebih lanjut dengan guru via telepon</string>
+    <string name="promote_3">Fitur chatting yang lebih lengkap</string>
+    <string name="promote_4">Instan melihat pengguna yang sedang aktif</string>
+    <string name="promote_5">Bebas iklan</string>
+
+    <string name="file_size_overflow">Ukuran file max. 2 MB</string>
+
+    <string name="no_instagram">Anda tidak memiliki app Instagram</string>
+    <string name="no_whatsapp">Anda tidak memiliki app Whatsapp</string>
+    <string name="no_line">Anda tidak memiliki app Line</string>
+
+    <string name="promo_note">
+        <![CDATA[
+        Ekstra masa langganan dengan kode promo melalui follow instagram <font color=\"#00AEEF\"><u>newt.mobi</u></font>
+        ]]>
+    </string>
+
+    <string name="promo_note_2">
+        <![CDATA[
+        Get it from following instagram <u>newt.mobi</u>!
+        ]]>
+    </string>
+
+    <string name="payment_1_step_1">
+        <![CDATA[
+        Transfer pulsa sesuai dengan nominal paket yang dipilih ke salah satu no. operator berikut:
+        ]]>
+    </string>
+
+    <string name="payment_1_note_step_1">
+        <![CDATA[
+        <b>NB:</b>
+        <br></br>
+        1. Bila terjadi kesalahan transfer nominal pulsa, segera hubungi pihak admin melalui halaman Profil anda.
+        <br></br>
+        <br></br>
+        2. Bila pulsa ditransfer melalui no. hp yang berbeda dengan no. hp anda yang terdaftar di dalam aplikasi saat ini, hubungi pihak admin melalui halaman Profil anda.
+        ]]>
+    </string>
+
+    <string name="payment_1_step_2">
+        <![CDATA[
+        Tunggu masuknya notifikasi berisi \"<font color=\"#00AEEF\"><b>Pembayaran Diterima!</b></font>\".
+        ]]>
+    </string>
+
+    <string name="payment_1_note_step_2">
+        <![CDATA[
+        <b>NB:</b> Lama masuknya notifikasi bergantung pada kualitas koneksi jaringan yang dimiliki.
+        ]]>
+    </string>
+
+    <string name="payment_1_step_3">
+        <![CDATA[
+        Selesai. Masa langganan telah berhasil diperpanjang.
+        ]]>
+    </string>
+
+    <string name="example_payment_1_step_1">
+        <![CDATA[
+        Masukkan kode <b><u>*858#</u></b> untuk membuka menu transfer pulsa.
+        ]]>
+    </string>
+
+    <string name="example_payment_1_step_2">
+        <![CDATA[
+        Masukkan angka pilihan untuk layanan <b>Transfer Pulsa</b>.
+        ]]>
+    </string>
+
+    <string name="example_payment_1_step_3">
+        <![CDATA[
+        Masukkan No. HP tujuan (operator Telkomsel).
+        ]]>
+    </string>
+
+    <string name="example_payment_1_step_4">
+        <![CDATA[
+        Masukkan jumlah pulsa sesuai dengan nominal paket yang dipilih.
+        ]]>
+    </string>
+
+    <string name="example_payment_1_step_5">
+        <![CDATA[
+        Notifikasi \"<font color=\"#00AEEF\"><b>Pembayaran Diterima!</b></font>\" diterima.
+        <br></br>
+        <br></br>
+        Selesai. Masa langganan telah berhasil diperpanjang.
+        ]]>
+    </string>
+
+    <string name="payment_2_step_1">
+        <![CDATA[
+        Transfer uang sesuai dengan nominal paket yang dipilih ke salah satu rekening berikut:
+        ]]>
+    </string>
+
+    <string name="payment_2_note_step_1">
+        <![CDATA[
+        <b>NB:</b> Bila terjadi kesalahan transfer nominal uang, segera hubungi pihak admin melalui halaman Profil anda.
+        ]]>
+    </string>
+
+    <string name="payment_2_step_2">
+        <![CDATA[
+        Lampirkan bukti struk transfer pada pihak admin melalui halaman Profil anda.
+        ]]>
+    </string>
+
+    <string name="payment_2_step_3">
+        <![CDATA[
+        Tunggu masuknya notifikasi berisi \"<font color=\"#00AEEF\"><b>Pembayaran Diterima!</b></font>\".
+        ]]>
+    </string>
+
+    <string name="payment_2_note_step_3">
+        <![CDATA[
+        <b>NB:</b> Lama masuknya notifikasi bergantung pada kualitas koneksi jaringan yang dimiliki.
+        ]]>
+    </string>
+
+    <string name="payment_2_step_4">
+        <![CDATA[
+        Selesai. Masa langganan telah berhasil diperpanjang.
+        ]]>
+    </string>
+
+    <string name="submit_confirmation">
+        <![CDATA[
+        Kirim jawaban?
+        ]]>
+    </string>
+
+    <string name="submit_extra_confirmation">
+        <![CDATA[
+        Anda hanya memiliki sisa <b>1x percobaan</b>.
+        <br></br>
+        <br></br>
+        Kirim jawaban?
+        ]]>
+    </string>
+
+    <string name="mobile_ads_id">ca-app-pub-8090812214835287~2694113545</string>
+    <string name="banner_ads_id">ca-app-pub-8090812214835287/4797532709</string>
+    <string name="interstitial_ads_id">ca-app-pub-8090812214835287/1369015082</string>
+</resources>

@@ -1,0 +1,104 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppTheme.Mathematics" parent="AppTheme">
+        <item name="colorPrimary">@color/mathematics</item>
+        <item name="colorPrimaryDark">@color/mathematicsDark</item>
+
+        <item name="colorAccent">@color/mathematics</item>
+    </style>
+
+    <style name="AppTheme.Physics" parent="AppTheme">
+        <item name="colorPrimary">@color/physics</item>
+        <item name="colorPrimaryDark">@color/physicsDark</item>
+
+        <item name="colorAccent">@color/physics</item>
+    </style>
+
+    <style name="AppTheme.Chemistry" parent="AppTheme">
+        <item name="colorPrimary">@color/chemistry</item>
+        <item name="colorPrimaryDark">@color/chemistryDark</item>
+
+        <item name="colorAccent">@color/chemistry</item>
+    </style>
+
+    <style name="AppTheme.SD" parent="AppTheme">
+        <item name="colorPrimary">@color/sd</item>
+        <item name="colorPrimaryDark">@color/sdDark</item>
+
+        <item name="colorAccent">@color/sd</item>
+    </style>
+
+    <style name="AppTheme.SMP" parent="AppTheme">
+        <item name="colorPrimary">@color/smp</item>
+        <item name="colorPrimaryDark">@color/smpDark</item>
+
+        <item name="colorAccent">@color/smp</item>
+    </style>
+
+    <style name="AppTheme.SMA" parent="AppTheme">
+        <item name="colorPrimary">@color/sma</item>
+        <item name="colorPrimaryDark">@color/smaDark</item>
+
+        <item name="colorAccent">@color/sma</item>
+    </style>
+
+    <style name="AppTheme.PEnglish" parent="AppTheme">
+        <item name="colorPrimary">@color/pEnglish</item>
+        <item name="colorPrimaryDark">@color/pEnglishDark</item>
+
+        <item name="colorAccent">@color/pEnglish</item>
+    </style>
+
+    <style name="AppTheme.PMandarin" parent="AppTheme">
+        <item name="colorPrimary">@color/pMandarin</item>
+        <item name="colorPrimaryDark">@color/pMandarinDark</item>
+
+        <item name="colorAccent">@color/pMandarinDark</item>
+    </style>
+
+    <style name="AppTheme.Programming" parent="AppTheme">
+        <item name="colorPrimary">@color/programming</item>
+        <item name="colorPrimaryDark">@color/programmingDark</item>
+
+        <item name="colorAccent">@color/programming</item>
+    </style>
+
+    <style name="AppTheme.Mathematics.Challenge" parent="AppTheme">
+        <item name="colorPrimary">@color/cMathematics</item>
+        <item name="colorPrimaryDark">@color/cMathematicsDark</item>
+
+        <item name="colorAccent">@color/cMathematics</item>
+    </style>
+
+    <style name="AppTheme.Physics.Challenge" parent="AppTheme">
+        <item name="colorPrimary">@color/cPhysics</item>
+        <item name="colorPrimaryDark">@color/cPhysicsDark</item>
+
+        <item name="colorAccent">@color/cPhysics</item>
+    </style>
+
+    <style name="Theme.AppCompat.Translucent" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:background">#33000000</item> <!-- Or any transparency or color you need -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation</item>
+    </style>
+
+</resources>

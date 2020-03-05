@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="app.newt.id">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+        android:name=".Newt"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_logo_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:icon">
+        <activity
+            android:name=".view.activity.LaunchActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".view.activity.IntroActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.activity.LoginActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".view.activity.RegistrationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.activity.PasswordResActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.activity.DialogActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.activity.ProfileActivity"
+            android:label="@string/app_profile"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".view.activity.PhoneResActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.activity.ChatActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".view.activity.FullScreenInputActivity"
+            android:label="@string/app_full_screen_input"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.activity.FullScreenImageActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.activity.PaymentActivity"
+            android:label="@string/app_payment"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.custom.imagepicker.TempActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Translucent" />
+        <activity
+            android:name="com.yalantis.ucrop.UCropActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+
+        <service android:name=".background.service.FetchProfilesService" />
+        <service android:name=".background.service.FetchTeachersService" />
+        <service android:name=".background.service.StoreChatService" />
+        <service android:name=".background.service.ChattingService" />
+        <service android:name=".background.service.CheckOnlineService" />
+        <service android:name=".background.service.FCMService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <receiver
+            android:name=".background.receiver.NetworkReceiver"
+            android:exported="false" />
+        <receiver
+            android:name=".background.receiver.UpdatedReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_REPLACED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".background.receiver.BootReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".background.receiver.ProVersionInstalledReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_INSTALL" />
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <activity
+            android:name=".view.activity.HomeActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".view.activity.PrivateTeacherActivity" />
+        <activity
+            android:name=".view.activity.ChallengeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.activity.QuestionActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.activity.RankActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".view.activity.RecordActivity" />
+        <activity
+            android:name=".view.activity.ChallengeHistoryActivity"
+            android:label="@string/app_challenge_history"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>
